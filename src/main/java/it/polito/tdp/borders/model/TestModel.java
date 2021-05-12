@@ -8,8 +8,9 @@ public class TestModel {
 
 		System.out.println("TestModel -- TODO");
 		
-//		System.out.println("Creo il grafo relativo al 2000");
-//		model.createGraph(2000);
+	System.out.println("Creo il grafo relativo al 2000");
+	model.createGraph(2000);
+	System.out.println(model.getGradoVertici());
 		
 //		List<Country> countries = model.getCountries();
 //		System.out.format("Trovate %d nazioni\n", countries.size());
