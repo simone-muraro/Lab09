@@ -70,6 +70,7 @@ public class Model {
 	//parte 2
 	
 	public Set<Country> getRaggiungibiliCI(Country c){
+		int i;
 		ConnectivityInspector<Country, DefaultEdge> ci = new ConnectivityInspector<>(grafo);
 		System.out.println(ci.connectedSetOf(c).size());
 		return ci.connectedSetOf(c);
